@@ -26,6 +26,11 @@ const button = document.querySelector("button");
 button.addEventListener("click", () => {
   const random = Math.floor(Math.random() * phrases.length);
   const comment = document.querySelector(".comment");
+  comment.classList.toggle("element-animation");
+  setTimeout(() => {
+    comment.classList.remove("element-animation");
+  }, 400);
+
   if (phrases[random] === "*топот ног*") {
     comment.innerHTML = `${phrases[random]}`;
   } else {
