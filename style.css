@@ -1,0 +1,31 @@
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  padding: 16px;
+}
+
+.comment {
+  margin-top: 60px;
+  height: 100px;
+  font-style: italic;
+  font-size: 32px;
+  transition: margin-left ease-in 0.4s;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  font-size: 12px;
+  background-color: aquamarine;
+  border: 1px solid grey;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
