@@ -3,6 +3,16 @@
   margin: 0;
   padding: 0;
 }
+
+.dir {
+  font-size: 60px;
+}
+
+.title {
+  padding-bottom: 16px;
+  border-bottom: 10px solid white;
+}
+
 .container {
   height: 100vh;
   max-width: 900px;
@@ -13,9 +23,8 @@
 
 .comment {
   margin-top: 60px;
-  min-height: 150px;
-  font-style: italic;
-  font-size: 32px;
+  min-height: 200px;
+  font-size: 40px;
 }
 
 .clicked {
@@ -24,14 +33,22 @@
 }
 
 button {
-  height: 50px;
-  width: 200px;
-  font-size: 12px;
-  background-color: aquamarine;
-  border: 1px solid grey;
+  height: 70px;
+  width: 250px;
+  font-size: 16px;
+  background-color: rgb(93, 20, 161);
+  border: none;
   border-radius: 3px;
   text-transform: uppercase;
   cursor: pointer;
+  color: rgb(240, 237, 243);
+  outline: none;
+  box-shadow: 1px 1px 5px black;
+  margin-top: 16px;
+}
+button:active {
+  box-shadow: none;
+  background-color: rgb(118, 28, 202);
 }
 .element-animation {
   animation: animationFrames ease-out 0.8s;
