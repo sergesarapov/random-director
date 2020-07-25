@@ -35,14 +35,13 @@
 
 .wrap {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .sound {
   display: none;
   font-size: 42px;
-  padding-right: 30px;
+  margin-left: 60px;
 }
 
 button {
