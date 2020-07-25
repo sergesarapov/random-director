@@ -42,6 +42,7 @@
   display: none;
   font-size: 42px;
   margin-left: 60px;
+  cursor: pointer;
 }
 
 button {
